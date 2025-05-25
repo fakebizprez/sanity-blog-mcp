@@ -1,4 +1,3 @@
-```markdown
 # Blog Page Implementation Guide for Next.js with Sanity CMS
 
 ## Overview
