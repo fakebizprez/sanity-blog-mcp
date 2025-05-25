@@ -11,7 +11,7 @@ This guide outlines how to create a dynamic blog page that displays blog posts f
 
 First, ensure your Sanity schema includes these fields. Create or modify the `sanity/schemaTypes/post.ts` file with the following content:
 
-```typescript
+```
 // sanity/schemaTypes/post.ts
 
 export default {
@@ -88,7 +88,7 @@ export default {
 
 Create or modify the `app/blog/page.tsx` file with the following content:
 
-```typescript
+```
 // app/blog/page.tsx
 
 import { Suspense } from 'react';
@@ -151,7 +151,7 @@ export default async function BlogPage() {
 
 Create or modify the `components/featured-post.tsx` file with the following content:
 
-```typescript
+```
 // components/featured-post.tsx
 
 import Link from 'next/link';
@@ -223,7 +223,7 @@ export default function FeaturedPost({ post }: FeaturedPostProps) {
 
 Create or modify the `components/blog-grid.tsx` file with the following content:
 
-```typescript
+```
 // components/blog-grid.tsx
 
 import Link from 'next/link';
